@@ -21,6 +21,7 @@ const encapsulation = () => {
 		rmName
 	};
 };
+
 const data = encapsulation();
 data.setName("Brittney"); // 0
 data.getName(0); // 'Brittney'
